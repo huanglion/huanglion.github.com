@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>apache服务器设置多站点 - CodePlay</title>
+  <meta name="author" content="TimeMachine">
+
+  
+  <meta name="description" content="在本机的Windows下设置的。 随便写个域名，如 h.co；
+在hosts文件里，添加127.0.0.1 h.co;
+在httpd.conf文件里添加： 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+#这个是把域名指到对应文件夹
+&lt;VirtualHost 188.188.8. &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://huanglion.github.com/blog/2012/03/05/apache-virtual-host">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="CodePlay" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">CodePlay</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:huanglion.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Apache服务器设置多站点</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-05T15:01:00+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>在本机的Windows下设置的。</p>
+
+<ol>
+<li>随便写个域名，如 h.co；</li>
+<li>在hosts文件里，添加<code>127.0.0.1 h.co</code>;</li>
+<li>在httpd.conf文件里添加：</li>
+</ol>
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='apache'><span class='line'><span class="c">#这个是把域名指到对应文件夹</span>
+</span><span class='line'><span class="nt">&lt;VirtualHost</span> <span class="s">188.188.8.254</span><span class="nt">&gt;</span>
+</span><span class='line'><span class="nb">DocumentRoot</span> <span class="s2">&quot;G:\www&quot;</span>
+</span><span class='line'><span class="nb">ServerName</span> h.co
+</span><span class='line'><span class="nt">&lt;/Virtualhost&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">#这个是给指定的文件夹一定的权限</span>
+</span><span class='line'><span class="nt">&lt;Directory</span> <span class="s">&quot;G:\www&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>    <span class="nb">AllowOverride</span> <span class="k">None</span>
+</span><span class='line'>    <span class="nb">Options</span> <span class="k">None</span>
+</span><span class='line'>    <span class="nb">Order</span> allow,deny
+</span><span class='line'>    <span class="nb">Allow</span> from <span class="k">all</span>
+</span><span class='line'><span class="nt">&lt;/Directory&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>如果有多个域名，就多添加几个类似的内容就行了。</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">TimeMachine</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-05T15:01:00+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://huanglion.github.com/blog/2012/03/05/apache-virtual-host/" data-via="" data-counturl="http://huanglion.github.com/blog/2012/03/05/apache-virtual-host/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/03/05/linux-mint-wubi/" title="Previous Post: linux mint安装极点五笔">&laquo; linux mint安装极点五笔</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/03/25/mutiple-ssh-keys/" title="Next Post: mutiple SSH keys">mutiple SSH keys &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/03/28/method-missing-classnotfound/">method_missing Error</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/25/mutiple-ssh-keys/">mutiple SSH keys</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/05/apache-virtual-host/">apache服务器设置多站点</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/05/linux-mint-wubi/">linux mint安装极点五笔</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/05/linux-mint-ibus/">[转]Linux Mint 12 - iBus没有输入法图标的问题</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - TimeMachine -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

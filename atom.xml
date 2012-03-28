@@ -1,126 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>CodePlay</title>
-  <meta name="author" content="TimeMachine">
-
-  
-  <meta name="description" content="竟然被一个问题坑了很久。
-错误提示： 1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-## Generating Site with Jekyll
-unchanged sass/screen.scss &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://huanglion.github.com">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="CodePlay" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">CodePlay</a></h1>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:huanglion.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[CodePlay]]></title>
+  <link href="http://huanglion.github.com/atom.xml" rel="self"/>
+  <link href="http://huanglion.github.com/"/>
+  <updated>2012-03-28T12:34:45+08:00</updated>
+  <id>http://huanglion.github.com/</id>
+  <author>
+    <name><![CDATA[TimeMachine]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2012/03/28/method-missing-classnotfound/">Method_missing Error</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2012-03-28T09:44:00+08:00" pubdate data-updated="true">Mar 28<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>竟然被一个问题坑了很久。
+  <entry>
+    <title type="html"><![CDATA[method_missing Error]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/28/method-missing-classnotfound/"/>
+    <updated>2012-03-28T09:44:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/28/method-missing-classnotfound</id>
+    <content type="html"><![CDATA[<p>竟然被一个问题坑了很久。
 错误提示：</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -186,42 +84,15 @@ unchanged sass/screen.scss &hellip;">
 abc defg 
 ```
 </code></pre>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/25/mutiple-ssh-keys/">Mutiple SSH Keys</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-25T15:29:00+08:00" pubdate data-updated="true">Mar 25<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>大部分人只用一个身份去连接git(github.com)。也就只用到一个ssh key。有时候可能会想玩一些不同的东西，建立两个或者两个以上的用户。
+  <entry>
+    <title type="html"><![CDATA[mutiple SSH keys]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/25/mutiple-ssh-keys/"/>
+    <updated>2012-03-25T15:29:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/25/mutiple-ssh-keys</id>
+    <content type="html"><![CDATA[<p>大部分人只用一个身份去连接git(github.com)。也就只用到一个ssh key。有时候可能会想玩一些不同的东西，建立两个或者两个以上的用户。
 但在连接的时候就有问题了，一个用户对应一个SSH key。现在就来设置一下多用户所要用到的多个SSH keys。</p>
 
 <p>假设原本已经有了一个ssh key，现在还是一样用<code>ssh-keygen -t rsa -C 'secondUser@mail.com'</code> 在生成文件时候可以自己输入想要的文件名。后面的，都跟第一次生成密钥文件时候是一样的。</p>
@@ -287,42 +158,15 @@ abc defg
 
 
 <p>然后再连接。<code>ssh -T git@github-second</code>这里也是不同了。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/05/apache-virtual-host/">Apache服务器设置多站点</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-05T15:01:00+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>在本机的Windows下设置的。</p>
+  <entry>
+    <title type="html"><![CDATA[apache服务器设置多站点]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/05/apache-virtual-host/"/>
+    <updated>2012-03-05T15:01:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/05/apache-virtual-host</id>
+    <content type="html"><![CDATA[<p>在本机的Windows下设置的。</p>
 
 <ol>
 <li>随便写个域名，如 h.co；</li>
@@ -361,42 +205,15 @@ abc defg
 
 
 <p>如果有多个域名，就多添加几个类似的内容就行了。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/05/linux-mint-wubi/">Linux Mint安装极点五笔</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-05T14:26:00+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>按官方的<a href="http://code.google.com/p/ibus">说明</a>安装ibus，但ibus没有提供极点五笔。</p>
+  <entry>
+    <title type="html"><![CDATA[linux mint安装极点五笔]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/05/linux-mint-wubi/"/>
+    <updated>2012-03-05T14:26:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/05/linux-mint-wubi</id>
+    <content type="html"><![CDATA[<p>按官方的<a href="http://code.google.com/p/ibus">说明</a>安装ibus，但ibus没有提供极点五笔。</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -412,42 +229,15 @@ abc defg
 
 
 <p>所以还要安装ibus-table<code>sudo apt-get install ibus-table</code>，再去<a href="http://forum.ubuntu.org.cn/viewtopic.php?f=8&amp;t=262266">下载</a>极点五笔的码表并安装。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/05/linux-mint-ibus/">[转]Linux Mint 12 - iBus没有输入法图标的问题</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-05T14:15:00+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>裝好Linux Mint跟iBus後發現切換輸入法時iBus的系統匣顯示的是禁止符號的圖示，我使用的解決方法是在 <code>/usr/share/ibus/ui/gtk/panel.py</code>這個檔案中加入下面＋號後兩行的程式碼(因為是Python語法所以要注意程式碼前的空格數)：</p>
+  <entry>
+    <title type="html"><![CDATA[[转]Linux Mint 12 - iBus没有输入法图标的问题]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/05/linux-mint-ibus/"/>
+    <updated>2012-03-05T14:15:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/05/linux-mint-ibus</id>
+    <content type="html"><![CDATA[<p>裝好Linux Mint跟iBus後發現切換輸入法時iBus的系統匣顯示的是禁止符號的圖示，我使用的解決方法是在 <code>/usr/share/ibus/ui/gtk/panel.py</code>這個檔案中加入下面＋號後兩行的程式碼(因為是Python語法所以要注意程式碼前的空格數)：</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -499,42 +289,15 @@ abc defg
 <p><a href="http://dust-way.blogspot.com/2011/12/linux-mint-12-ibus.html" title="Linux Mint 12 安裝筆記 - iBus 系統匣輸入法圖示顯示問題排除">原文</a></p>
 
 <p>另，如果ibus的提示框不跟随，可能是<code>ibus-gtk3</code>没有安装。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/05/vim-template/">Vim新建文件的模板</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-05T13:59:00+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>在新建文件时，如果有针对该文件扩展名的模板存在，那么模板中的内容，将被自动插入进新文档中。将模板以正确的扩展名保存至<code>Vim/myTemplate</code>目录中。如果没有myTemplate目录，就创建一个。在Windows中，将模板文件html.tpl保存到<code>$Vim/vimfiles/myTemplate/</code>目录下；而在Mac/Liunx/Unix中，则保存模板文件至<code>~/.vim/myTemplate/</code></p>
+  <entry>
+    <title type="html"><![CDATA[vim新建文件的模板]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/05/vim-template/"/>
+    <updated>2012-03-05T13:59:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/05/vim-template</id>
+    <content type="html"><![CDATA[<p>在新建文件时，如果有针对该文件扩展名的模板存在，那么模板中的内容，将被自动插入进新文档中。将模板以正确的扩展名保存至<code>Vim/myTemplate</code>目录中。如果没有myTemplate目录，就创建一个。在Windows中，将模板文件html.tpl保存到<code>$Vim/vimfiles/myTemplate/</code>目录下；而在Mac/Liunx/Unix中，则保存模板文件至<code>~/.vim/myTemplate/</code></p>
 
 <p>在<code>.vimrc</code>或<code>_vimrc</code>文件中，修改一些配置：</p>
 
@@ -555,42 +318,15 @@ abc defg
 <p>在<code>:new test.html</code> / <code>:tabnew test.html</code>新建一个文件的时候，就会自动添加模板中的代码。</p>
 
 <p>另外，在RedHat系列的系统(Fedora, CentOS等)里，gVim安装包叫vim-X11。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/05/install-grub/">重新安装grub</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-05T11:07:00+08:00" pubdate data-updated="true">Mar 5<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>前几天换了主机，那个主机的CPU（E6500）支持虚拟化。原来的CPU是E5200。整个硬盘换过去。上面有三个操作系统。但WIN7直接是打不开，Ubuntu 和 Linux Mint打开以后不显示鼠标，都是显卡驱动的问题。重装WIN7，但WINDOWS不引导其他操作系统。只能再装一次GRUB去引导其他两个LINUX。</p>
+  <entry>
+    <title type="html"><![CDATA[重新安装grub]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/05/install-grub/"/>
+    <updated>2012-03-05T11:07:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/05/install-grub</id>
+    <content type="html"><![CDATA[<p>前几天换了主机，那个主机的CPU（E6500）支持虚拟化。原来的CPU是E5200。整个硬盘换过去。上面有三个操作系统。但WIN7直接是打不开，Ubuntu 和 Linux Mint打开以后不显示鼠标，都是显卡驱动的问题。重装WIN7，但WINDOWS不引导其他操作系统。只能再装一次GRUB去引导其他两个LINUX。</p>
 
 <p>用Ubuntu的Live CD进去，找好Ubuntu的所在分区。</p>
 
@@ -604,126 +340,45 @@ abc defg
 
 
 <p><code>/dev/sda2</code>是Linux所在分区，要挂载到Live CD启动的虚拟机。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/02/octopress-notes-1/">Octopress记录</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-02T13:52:00+08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>按照octopress的指导，一般自己的库的主分支（master）是octopress最后生成的静态页面。整个后台都放到source分支去。octopress整个后台都是在客户机这里的，跟wordpress的不同。</p>
+  <entry>
+    <title type="html"><![CDATA[octopress记录]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/02/octopress-notes-1/"/>
+    <updated>2012-03-02T13:52:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/02/octopress-notes-1</id>
+    <content type="html"><![CDATA[<p>按照octopress的指导，一般自己的库的主分支（master）是octopress最后生成的静态页面。整个后台都放到source分支去。octopress整个后台都是在客户机这里的，跟wordpress的不同。</p>
 
 <p>换了新机器，把库克隆下来。进入目录，切换分支到source，绝大部分的修改和更新都是这里可以完成。暂时感觉是这样，没碰到要直接在生成的页面上修改的。在切换分支后如果直接用octopress一些相关命令如：<code>rake new_post['title']</code>，会提示安装。因为在刚进入这个目录时是主分支，没有备置文件，也就没启用octopress的备置文件了。切换分支source后，换到其他目录再回来，就会提示是否启用那个备置文件。确定一下就可以了。</p>
 
 <p>新的地方去更新网站页面，也要先建立下连接。<code>rake setup_github_pages</code>，输入自己的库的地址：<code>git@github.com:githubUser/repositoryID.git</code>。后面就是跟第一次使用时的一样可以<code>rake generate</code>和<code>rake deploy</code>。</p>
 
 <p>octopress系统会跟踪文件的修改，比如你在预览（preview）的时候，改了样式表，刷新页面就可以看到效果了。所有样式都可以在<code>sass</code>这个文件夹里。要让字体显示是“微软雅黑”，可以在<code>sass/custom/_font.scss</code>把注释“//”去掉，再修改，<code>$sans: "Microsoft YaHei", "Optima", sans-serif;</code>。把所有链接的下划线去掉，这些链接的颜色已经足于识别了。在<code>sass/base/_theme.scss</code>修改。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/02/octopress-1/">Octopress记录</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-02T13:52:00+08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>按照octopress的指导，一般自己的库的主分支（master）是octopress最后生成的静态页面。整个后台都放到source分支去。octopress整个后台都是在客户机这里的，跟wordpress的不同。</p>
+  <entry>
+    <title type="html"><![CDATA[octopress记录]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/02/octopress-1/"/>
+    <updated>2012-03-02T13:52:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/02/octopress-1</id>
+    <content type="html"><![CDATA[<p>按照octopress的指导，一般自己的库的主分支（master）是octopress最后生成的静态页面。整个后台都放到source分支去。octopress整个后台都是在客户机这里的，跟wordpress的不同。</p>
 
 <p>换了新机器，把库克隆下来。进入目录，切换分支到source，绝大部分的修改和更新都是这里可以完成。暂时感觉是这样，没碰到要直接在生成的页面上修改的。在切换分支后如果直接用octopress一些相关命令如：<code>rake new_post['title']</code>，会提示安装。因为在刚进入这个目录时是主分支，没有备置文件，也就没启用octopress的备置文件了。切换分支source后，换到其他目录再回来，就会提示是否启用那个备置文件。确定一下就可以了。</p>
 
 <p>新的地方去更新网站页面，也要先建立下连接。<code>rake setup_github_pages</code>，输入自己的库的地址：<code>git@github.com:githubUser/repositoryID.git</code>。后面就是跟第一次使用时的一样可以<code>rake generate</code>和<code>rake deploy</code>。</p>
 
 <p>octopress系统会跟踪文件的修改，比如你在预览（preview）的时候，改了样式表，刷新页面就可以看到效果了。所有样式都可以在<code>sass</code>这个文件夹里。要让字体显示是“微软雅黑”，可以在<code>sass/custom/_font.scss</code>把注释“//”去掉，再修改，<code>$sans: "Microsoft YaHei", "Optima", sans-serif;</code>。把所有链接的下划线去掉，这些链接的颜色已经足于识别了。在<code>sass/base/_theme.scss</code>修改。</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/01/proxychains/">Proxychains</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-01T15:09:00+08:00" pubdate data-updated="true">Mar 1<span>st</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://sourceforge.net/projects/proxychains/" title="ProxyChains - HTTP and SOCKS">ProxyChains</a> 很好用，配合<a href="http://code.google.com/p/wallproxy-plugins/downloads/list" title="a Powerful GAE/PHP proxy with BEST Security which is Easy to use">WallProxy</a>的话。</p>
+  <entry>
+    <title type="html"><![CDATA[proxychains]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/01/proxychains/"/>
+    <updated>2012-03-01T15:09:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/01/proxychains</id>
+    <content type="html"><![CDATA[<p><a href="http://sourceforge.net/projects/proxychains/" title="ProxyChains - HTTP and SOCKS">ProxyChains</a> 很好用，配合<a href="http://code.google.com/p/wallproxy-plugins/downloads/list" title="a Powerful GAE/PHP proxy with BEST Security which is Easy to use">WallProxy</a>的话。</p>
 
 <p>在搭建OctoPress的时候，要下载一个100K的文件，却一直下载失败，发现是连接被重置了很多。先是想用VPN，但没找到好用的，只能找其它代理了。网上找到了proxyChains，wallProxy刚好可以用socks代理。配合一起用了一段时间，感觉很不错。在正常的命令前加个proxychains就行了，<code>proxychains git clone http://github.com/joyent/node.git</code>。</p>
 
@@ -740,87 +395,102 @@ abc defg
 </pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">socks5</span> <span class="mi">127</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">0</span><span class="o">.</span><span class="mi">1</span> <span class="mi">8086</span>
 </span></code></pre></td></tr></table></div></figure>
 
-</div>
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[GIT笔记（1）]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/01/git-notes-1/"/>
+    <updated>2012-03-01T11:05:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/01/git-notes-1</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#clone下来的是整个库的文件，包括所有分支</span>
+</span><span class='line'><span class="nv">$ </span>git clone git@github.com:gitUser/repositoryName.git
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>gitUsergitUser  <span class="c">#默认进入的目录就是主分支master</span>
+</span><span class='line'><span class="nv">$ </span>git branch         <span class="c">#打印出当前分支</span>
+</span><span class='line'><span class="nv">$ </span>git branch -a      <span class="c">#打印出所有分支</span>
+</span><span class='line'><span class="nv">$ </span>git checkout -b <span class="nb">source </span>origin/source    <span class="c">#新建一个本地跟踪分支</span>
+</span><span class='line'><span class="nv">$ </span>git checkout <span class="nb">source</span>     <span class="c">#切换到source分支</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>GIT切换分支很容易，但在文件系统里看却很神奇，没搞明白怎么实现的。当<code>git clone</code>下来的整个库，里面有所有分支，第一次进去看，却只有主分支的文件在。用<code>Ctrl + H</code>也看不到，（猜）应该不是隐藏的。但在切换分支以后，在文件夹里立刻就看到新切换到的当前分支的文件，其他分支的文件又都看不到了，很有意思。</p>
+
+<p>git提交的步骤：</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git add some.file
+</span><span class='line'><span class="nv">$ </span>git commit -m <span class="s1">&#39;message&#39;</span>
+</span><span class='line'><span class="nv">$ </span>git push origin master
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
+  <entry>
+    <title type="html"><![CDATA[GIT笔记（1）]]></title>
+    <link href="http://huanglion.github.com/blog/2012/03/01/git-1/"/>
+    <updated>2012-03-01T11:05:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/03/01/git-1</id>
+    <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="c">#clone下来的是整个库的文件，包括所有分支</span>
+</span><span class='line'><span class="nv">$ </span>git clone git@github.com:gitUser/repositoryName.git
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>gitUsergitUser  <span class="c">#默认进入的目录就是主分支master</span>
+</span><span class='line'><span class="nv">$ </span>git branch         <span class="c">#打印出当前分支</span>
+</span><span class='line'><span class="nv">$ </span>git branch -a      <span class="c">#打印出所有分支</span>
+</span><span class='line'><span class="nv">$ </span>git checkout -b <span class="nb">source </span>origin/source    <span class="c">#新建一个本地跟踪分支</span>
+</span><span class='line'><span class="nv">$ </span>git checkout <span class="nb">source</span>     <span class="c">#切换到source分支</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
-    </article>
+<p>GIT切换分支很容易，但在文件系统里看却很神奇，没搞明白怎么实现的。当<code>git clone</code>下来的整个库，里面有所有分支，第一次进去看，却只有主分支的文件在。用<code>Ctrl + H</code>也看不到，（猜）应该不是隐藏的。但在切换分支以后，在文件夹里立刻就看到新切换到的当前分支的文件，其他分支的文件又都看不到了，很有意思。</p>
+
+<p>git提交的步骤：</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>git add some.file
+</span><span class='line'><span class="nv">$ </span>git commit -m <span class="s1">&#39;message&#39;</span>
+</span><span class='line'><span class="nv">$ </span>git push origin master
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
-  <div class="pagination">
-    
-      <a class="prev" href="/blog/page/2/">&larr; Older</a>
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://huanglion.github.com/blog/2012/02/21/hello-world/"/>
+    <updated>2012-02-21T16:41:00+08:00</updated>
+    <id>http://huanglion.github.com/blog/2012/02/21/hello-world</id>
+    <content type="html"><![CDATA[<p><em>新的世界</em></p>
+
+<p>大家都越来越爱折腾了，或者说有更多的人动手去创建属于自己的天地，并把它展示出来。曾经一个口号（好像是）叫，“<em>技术宅拯救世界</em>”。现在网络上的很多应用都非商业的，大家业余时间去做，分享出来。</p>
+
+<p>09年才发现有墙，从最初用几K每秒的套（<a href="https://www.torproject.org/" title="Tor Project: Anonymity Online">Tor</a>），到现在几百K每秒的<a href="http://code.google.com/appengine/" title="Google App Engine">GAE</a>。从IE6，到现在的chrome/firefox/opera。各种翻墙工具，各种浏览器插件，玩得很有意思。</p>
+
+<p>现在玩起这个来，感觉良好。</p>
+
+<h3>Hello world!</h3>
+]]></content>
+  </entry>
   
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2012/03/28/method-missing-classnotfound/">method_missing Error</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/25/mutiple-ssh-keys/">mutiple SSH keys</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/05/apache-virtual-host/">apache服务器设置多站点</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/05/linux-mint-wubi/">linux mint安装极点五笔</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/05/linux-mint-ibus/">[转]Linux Mint 12 - iBus没有输入法图标的问题</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - TimeMachine -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
